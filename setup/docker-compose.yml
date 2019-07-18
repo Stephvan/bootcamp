@@ -50,7 +50,7 @@ services:
   carts:
     image: codespaces/ansible-node-ubuntu-1404:v0.1.0
     ports:
-      - "8081:80"
+      - "8081:81"
     networks:
       custom:
         ipv4_address: 192.168.61.13
